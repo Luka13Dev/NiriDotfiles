@@ -1,0 +1,7 @@
+[General]
+TerminalApplication=kitty
+TerminalService=kitty.desktop
+[Icons]
+Theme=Tela-circle-blue-dark
+[UiSettings]
+ColorScheme=matugen
