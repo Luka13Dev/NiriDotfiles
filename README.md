@@ -45,46 +45,46 @@ My dotfiles for a **[Niri](https://github.com/YaLTeR/niri)** (scrollable-tiling 
 ```
 NiriDotfiles/
 ├── bash/
-│   ├── .bashrc
+│   └── .bashrc
 ├── fastfetch/
 │   ├── .config/
 │   │   ├── fastfetch/
-│   │   │   ├── config.jsonc
+│   │   │   └── config.jsonc
 ├── fuzzel/
 │   ├── .config/
 │   │   ├── fuzzel/
-│   │   │   ├── fuzzel.ini
+│   │   │   └── fuzzel.ini
 ├── gtk/
 │   ├── .config/
 │   │   ├── gtk-3.0/
-│   │   │   ├── gtk.css
+│   │   │   └── gtk.css
 │   │   ├── gtk-4.0/
 │   │   │   ├── gtk.css
-│   │   │   ├── settings.ini
+│   │   │   └── settings.ini
 ├── images/
 │   ├── Img_Desktop.png
 │   ├── Img_Launcher.png
-│   ├── Img_Terminal.png
+│   └── Img_Terminal.png
 ├── indextheme/
 │   ├── .icons/
 │   │   ├── default/
-│   │   │   ├── index.theme
+│   │   │   └── index.theme
 ├── kdeglobals/
 │   ├── .config/
-│   │   ├── kdeglobals
+│   │   └── kdeglobals
 ├── kitty/
 │   ├── .config/
 │   │   ├── kitty/
-│   │   │   ├── kitty.conf
+│   │   │   └── kitty.conf
 ├── Kvantum/
 │   ├── .config/
 │   │   ├── Kvantum/
-│   │   │   ├── kvantum.kvconfig
+│   │   │   └── kvantum.kvconfig
 ├── matugen/
 │   ├── .config/
 │   │   ├── matugen/
 │   │   │   ├── post-hook-scripts/
-│   │   │   │   ├── gtk-themes-reload.sh
+│   │   │   │   └── gtk-themes-reload.sh
 │   │   │   ├── templates/
 │   │   │   │   ├── btop.theme
 │   │   │   │   ├── colors.css
@@ -96,51 +96,51 @@ NiriDotfiles/
 │   │   │   │   ├── niri-colors.kdl
 │   │   │   │   ├── qtct-colors.conf
 │   │   │   │   ├── template.lua
-│   │   │   │   ├── terminal-sequences
+│   │   │   │   └── terminal-sequences
 ├── niri/
 │   ├── .config/
 │   │   ├── niri/
-│   │   │   ├── config.kdl
+│   │   │   └── config.kdl
 ├── nvim/
 │   ├── .config/
 │   │   ├── nvim/
 │   │   │   ├── lua/
 │   │   │   │   ├── config/
-│   │   │   │   │   ├── matugen.lua
+│   │   │   │   │   └── matugen.lua
 │   │   │   │   ├── plugins/
-│   │   │   │   │   ├── base16.lua
+│   │   │   │   │   └── base16.lua
 ├── nvim-kitty/
 │   ├── .local/
 │   │   ├── share/
 │   │   │   ├── applications/
-│   │   │   │   ├── nvim-kitty.desktop
+│   │   │   │   └── nvim-kitty.desktop
 ├── qtct/
 │   ├── .config/
 │   │   ├── qt5ct/
-│   │   │   ├── qt5ct.conf
+│   │   │   └── qt5ct.conf
 │   │   ├── qt6ct/
-│   │   │   ├── qt6ct.conf
+│   │   │   └── qt6ct.conf
 ├── swaync/
 │   ├── .config/
 │   │   ├── swaync/
 │   │   │   ├── config.json
 │   │   │   ├── configSchema.json
-│   │   │   ├── style.css
+│   │   │   └── style.css
 ├── wallpaper/
 │   ├── Pictures/
 │   │   ├── Wallpapers/
-│   │   │   ├── Wallpaper.png
+│   │   │   └── Wallpaper.png
 ├── waybar/
 │   ├── .config/
 │   │   ├── waybar/
 │   │   │   ├── scripts/
-│   │   │   │   ├── power-menu.sh
+│   │   │   │   └── power-menu.sh
 │   │   │   ├── config.jsonc
-│   │   │   ├── style.css
+│   │   │   └── style.css
 ├── xdg-desktop-portal/
 │   ├── .config/
 │   │   ├── xdg-desktop-portal/
-│   │   │   ├── niri-portals.conf
+│   │   │   └── niri-portals.conf
 ├── install.sh
 └── README.md
 ```
