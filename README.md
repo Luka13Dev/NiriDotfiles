@@ -45,22 +45,102 @@ My dotfiles for a **[Niri](https://github.com/YaLTeR/niri)** (scrollable-tiling 
 ```
 NiriDotfiles/
 ├── bash/
+│   ├── .bashrc
 ├── fastfetch/
+│   ├── .config/
+│   │   ├── fastfetch/
+│   │   │   ├── config.jsonc
 ├── fuzzel/
+│   ├── .config/
+│   │   ├── fuzzel/
+│   │   │   ├── fuzzel.ini
 ├── gtk/
+│   ├── .config/
+│   │   ├── gtk-3.0/
+│   │   │   ├── gtk.css
+│   │   ├── gtk-4.0/
+│   │   │   ├── gtk.css
+│   │   │   ├── settings.ini
+├── images/
+│   ├── Img_Desktop.png
+│   ├── Img_Launcher.png
+│   ├── Img_Terminal.png
 ├── indextheme/
+│   ├── .icons/
+│   │   ├── default/
+│   │   │   ├── index.theme
 ├── kdeglobals/
+│   ├── .config/
+│   │   ├── kdeglobals
 ├── kitty/
+│   ├── .config/
+│   │   ├── kitty/
+│   │   │   ├── kitty.conf
 ├── Kvantum/
+│   ├── .config/
+│   │   ├── Kvantum/
+│   │   │   ├── kvantum.kvconfig
 ├── matugen/
+│   ├── .config/
+│   │   ├── matugen/
+│   │   │   ├── post-hook-scripts/
+│   │   │   │   ├── gtk-themes-reload.sh
+│   │   │   ├── templates/
+│   │   │   │   ├── btop.theme
+│   │   │   │   ├── colors.css
+│   │   │   │   ├── fuzzel.ini
+│   │   │   │   ├── gtk-colors.css
+│   │   │   │   ├── kitty-colors.css
+│   │   │   │   ├── kvantum-colors.kvconfig
+│   │   │   │   ├── kvantum-colors.svg
+│   │   │   │   ├── niri-colors.kdl
+│   │   │   │   ├── qtct-colors.conf
+│   │   │   │   ├── template.lua
+│   │   │   │   ├── terminal-sequences
 ├── niri/
+│   ├── .config/
+│   │   ├── niri/
+│   │   │   ├── config.kdl
 ├── nvim/
+│   ├── .config/
+│   │   ├── nvim/
+│   │   │   ├── lua/
+│   │   │   │   ├── config/
+│   │   │   │   │   ├── matugen.lua
+│   │   │   │   ├── plugins/
+│   │   │   │   │   ├── base16.lua
 ├── nvim-kitty/
+│   ├── .local/
+│   │   ├── share/
+│   │   │   ├── applications/
+│   │   │   │   ├── nvim-kitty.desktop
 ├── qtct/
+│   ├── .config/
+│   │   ├── qt5ct/
+│   │   │   ├── qt5ct.conf
+│   │   ├── qt6ct/
+│   │   │   ├── qt6ct.conf
 ├── swaync/
+│   ├── .config/
+│   │   ├── swaync/
+│   │   │   ├── config.json
+│   │   │   ├── configSchema.json
+│   │   │   ├── style.css
 ├── wallpaper/
+│   ├── Pictures/
+│   │   ├── Wallpapers/
+│   │   │   ├── Wallpaper.png
 ├── waybar/
+│   ├── .config/
+│   │   ├── waybar/
+│   │   │   ├── scripts/
+│   │   │   │   ├── power-menu.sh
+│   │   │   ├── config.jsonc
+│   │   │   ├── style.css
 ├── xdg-desktop-portal/
+│   ├── .config/
+│   │   ├── xdg-desktop-portal/
+│   │   │   ├── niri-portals.conf
 ├── install.sh
 └── README.md
 ```
