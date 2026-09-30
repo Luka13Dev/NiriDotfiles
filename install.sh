@@ -3,7 +3,7 @@ set -e
 echo "==> Installing required packages."
 sudo pacman -Sy --needed --noconfirm \
   niri waybar fuzzel kitty matugen swaybg xwayland-satellite pipewire pipewire-pulse wireplumber pavucontrol \
-  network-manager-applet xdg-desktop-portal-gnome xdg-desktop-portal-gtk lxqt-policykit swaync cliphist \
+  network-manager-applet xdg-desktop-portal-gnome xdg-desktop-portal-gtk hyprpolkitagent swaync cliphist \
   swayidle swaylock adw-gtk-theme tela-circle-icon-theme-blue nautilus file-roller poppler tumbler \
   ffmpegthumbnailer stow curl imagemagick neovim firefox fastfetch base-devel git flatpak fuse2 \
   ttf-firacode-nerd noto-fonts noto-fonts-emoji noto-fonts-cjk ffmpeg gst-plugins-base gst-plugins-good \

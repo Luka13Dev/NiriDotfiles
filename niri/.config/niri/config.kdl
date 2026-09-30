@@ -273,7 +273,7 @@ layout {
 spawn-at-startup "waybar"
 spawn-sh-at-startup "swaybg -i ~/Pictures/Wallpapers/Wallpaper.png -m fill"
 spawn-sh-at-startup "wl-paste --watch cliphist store"
-spawn-at-startup "/usr/bin/lxqt-policykit-agent"
+spawn-at-startup "/usr/lib/hyprpolkitagent/hyprpolkitagent"
 spawn-at-startup "nm-applet"
 spawn-at-startup "udiskie"
 spawn-sh-at-startup "swayidle -w timeout 300 'swaylock -f -i ~/Pictures/Wallpapers/Wallpaper.png' before-sleep 'swaylock -f -i ~/Pictures/Wallpapers/Wallpaper.png'" 
@@ -353,11 +353,6 @@ window-rule {
     geometry-corner-radius 12
     clip-to-geometry true
     draw-border-with-background false
-}
-
-window-rule {
-	match app-id="^lxqt-policykit-agent$"
-	open-floating true
 }
 
 binds {
